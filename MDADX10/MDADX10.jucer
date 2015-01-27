@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="mObPGz" name="MDADX10" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.jrlanglois.MDADX10" includeBinaryInAppConfig="0"
+              buildVST="1" buildVST3="1" buildAU="1" buildRTAS="0" buildAAX="0"
+              pluginName="MDADX10" pluginDesc="MDADX10" pluginManufacturer="jrlanglois"
+              pluginManufacturerCode="JMDX" pluginCode="JMDX" pluginChannelConfigs="{1, 1}, {2, 2}"
+              pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="1"
+              pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="MDADX10AU" pluginRTASCategory="" aaxIdentifier="com.jrlanglois.MDADX10"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="3.1.1"
+              companyName="jrlanglois" companyWebsite="jrlanglois.com" companyEmail="joel.r.langlois@gmail.com">
+  <MAINGROUP id="lDt4QS" name="MDADX10">
+    <GROUP id="{CECD1CDA-93E2-C9F9-E731-E51DEDE4734E}" name="Source">
+      <FILE id="R01pYJ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="xIonNZ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="j8fzEZ" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="XYEjzH" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="MDADX10"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="MDADX10"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="MDADX10"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2012 targetFolder="Builds/VisualStudio2012">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="MDADX10"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </VS2012>
+    <VS2010 targetFolder="Builds/VisualStudio2010">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="MDADX10"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </VS2010>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="MDADX10"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <CODEBLOCKS targetFolder="Builds/CodeBlocks">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="MDADX10"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="MDADX10"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

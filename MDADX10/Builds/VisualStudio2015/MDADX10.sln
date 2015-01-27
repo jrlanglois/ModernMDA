@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{3E2E1DD5-A548-C5E5-C7EA-412DBE79C587}") = "MDADX10", "MDADX10.vcxproj", "{2FBE412D-0619-A271-7688-FA88857A5EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FBE412D-0619-A271-7688-FA88857A5EB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FBE412D-0619-A271-7688-FA88857A5EB9}.Debug|Win32.Build.0 = Debug|Win32
+		{2FBE412D-0619-A271-7688-FA88857A5EB9}.Release|Win32.ActiveCfg = Release|Win32
+		{2FBE412D-0619-A271-7688-FA88857A5EB9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
